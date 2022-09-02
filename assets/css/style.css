@@ -1,0 +1,84 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    width: 25;
+    background-color: rgb(73, 74, 81);
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+header h1{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 50px;
+    background-color: lightblue;
+    color: rgb(73, 74, 81);
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.header nav{
+padding-top: 30px;
+padding-bottom: 30px;
+margin-right: 20px;
+float: right;
+}
+
+.header nav ul{
+list-style-type: none;
+}
+
+.header nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.header a{
+    color: lightblue;
+    text-underline-offset: 10px;
+}
+
+.shovel {
+    position: relative;
+    text-align: right;
+    height: 200px;
+    max-width: 100%;
+    background-image: url("../images/IMG_6343.jpeg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.Noah{
+display: inline-block;
+position: absolute;
+bottom: 8px;
+right: 16px;
+background-color: lightblue;
+z-index: +1;
+color: grey;
+}
+
+.Content{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section h2{
+text-align: left;
+}
+
+.p{
+    text-align: right;
+}
+
+
