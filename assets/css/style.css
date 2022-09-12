@@ -174,7 +174,10 @@ position: relative;
 flex-wrap: wrap;
 flex-direction: row;
 justify-content: center;
-/* width: 60%; */
+}
+
+.projects a{
+    text-decoration: none;
 }
 
 /* .study-guide{
@@ -185,6 +188,11 @@ flex-basis: 700px;
 width: max-content;
 } */
 
+.projects span{
+display: inline-block;
+vertical-align: middle;
+}
+
 
 
 .study-guide{
@@ -193,9 +201,16 @@ width: max-content;
     background-image: url("../images/download.png");
     background-size: cover;
     background-position: center;
-    padding: 20px;
+    padding: 50px;
     margin: 25px;
 } 
+
+.box-1{
+    background-color: lightblue;
+    padding: 30px;
+    text-align: left;
+    text-decoration: none;
+}
 
 .study-guide:hover{
 opacity: 25%;
@@ -211,6 +226,12 @@ margin: 5px;
 padding: 5px;
 }
 
+.box-2{
+    background-color: lightblue;
+    padding: 10px;
+    text-align: left;
+}
+
 .example:hover{
     opacity: 25%;
 }
@@ -223,6 +244,12 @@ padding: 5px;
     background-position: center;
     margin: 5px;
     padding: 5px;
+}
+
+.box-3{
+    background-color: lightblue;
+    padding: 10px;
+    text-align: left;
 }
 
 .notebook:hover{
