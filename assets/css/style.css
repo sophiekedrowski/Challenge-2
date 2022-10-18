@@ -218,8 +218,7 @@ width: max-content;
 .study-guide {
     height: 500px;
     width: 100%;
-    background-image: url("../images/download.png");
-    background-size: cover;
+    background-image: url("../images/campsite-stock.jpg");
     background-position: center;
     padding: 50px;
     margin: 25px;
